@@ -1,0 +1,105 @@
+# ---- Python bytecode / artifacts ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ---- Packaging ----
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-wheel-metadata/
+
+# ---- Virtual envs & tooling ----
+.venv/
+venv/
+env/
+ENV/
+.conda/
+conda-env/
+.python-version
+.env
+.env.*
+.envrc
+
+# ---- Jupyter / notebooks ----
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+*.nbconvert.ipynb
+.jupyter/
+
+# ---- Test / coverage / caches ----
+.tox/
+.nox/
+.pytest_cache/
+.coverage*
+htmlcov/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.cache/
+
+# ---- Editors / IDEs ----
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- OS cruft ----
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ---- Logs / temp ----
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ---- ML artifacts (large/binary) ----
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# ---- Project data & outputs ----
+data/
+!data/README.md
+!data/samples/**
+
+datasets/
+!datasets/README.md
+!datasets/samples/**
+
+models/
+!models/README.md
+
+checkpoints/
+!checkpoints/README.md
+
+outputs/
+results/
+figures/
+runs/
+logs/
+tensorboard/
+lightning_logs/
+
+*.txt
